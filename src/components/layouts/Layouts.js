@@ -4,8 +4,8 @@ import Footer from './Footer'
 
 function Layouts({children}) {
   return (
-    <div>
-    <Header isHomepage={true}/>
+    <div className=' '>
+    <Header />
     <main>{children}</main>
     <Footer />
   </div>

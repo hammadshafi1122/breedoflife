@@ -3,7 +3,7 @@ import { Buttons } from '../components/elements'
 import Title from '../components/elements/Title'
 function AboutSection() {
   return (
-    <div className='p-10 space-y-9 md:flex md:p-20 justify-center  md:space-x-64'>
+    <div className=' space-y-9 md:grid grid-cols-2 p-10   md:space-x-64'>
         <div className='bg-lightGray border-4 border-lightGreen p-36'>
 
         </div>

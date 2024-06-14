@@ -6,7 +6,7 @@ function Header() {
 
       
 
-<div className='  bg-primary p-1 '>
+<div className='  bg-primary p-1 w-screen '>
 <Navbar/>
 <div className='md:flex justify-center'>
 <HeaderSection />

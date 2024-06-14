@@ -5,7 +5,7 @@ import { IoCheckmarkDoneCircle } from "react-icons/io5";
 
 function CharitySection() {
   return (
-    <div className='p-10 space-y-9 md:flex md:p-20 justify-center md:space-x-20'>
+    <div className=' space-y-9 md:grid md:grid-cols-2  md:space-x-20 p-10'>
   
     <div className='space-y-9'>
       <Title title="Welcome to Charity" heading="Let Us Come Together
@@ -16,10 +16,10 @@ underestimate the difference YOU can make in the
 <br></br>
 lives of the poor, the abused and the helpless.</p>
 <div className='flex space-x-8' >
-    <div className=' bg-greenish p-5 w-34 inline-block space-y-2'>
+    <div className=' bg-greenish p-3 md:p-5 w-34 inline-block space-y-2'>
          <div className='flex space-x-2'>
             <IoCheckmarkDoneCircle className='mt-1'/>
-            <h1 className='text-primary font-bold'>Our mission</h1>
+            <h1 className='text-primary font-bold'>Our vision</h1>
          </div>
          <p className='inline-block'>
          Lorem ipsum dolor sit amet,
@@ -29,7 +29,7 @@ consetetur sadipscing elitr,
 sed diam
          </p>
     </div> 
-    <div className='bg-greenish p-5 w-34 inline-block space-y-2'>
+    <div className='bg-greenish p-3 md:p-5 w-34 inline-block space-y-2'>
     <div className='flex space-x-2 '>
             <PiTelevisionBold className='mt-1'/>
             <h1 className='font-bold text-primary'>Our mission</h1>

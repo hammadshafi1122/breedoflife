@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 function Layouts({children}) {
   return (
-    <div className=' '>
+    <div className='max-w-32'>
     <Header />
     <main>{children}</main>
     <Footer />

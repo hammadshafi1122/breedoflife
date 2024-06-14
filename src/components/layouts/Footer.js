@@ -11,7 +11,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className='bg-secondary text-white mt-auto'>
+    <div className='bg-secondary text-white mt-auto w-screen'>
       <div className='md:flex justify-around p-6 md:p-10 space-y-4 md:space-x-96 '>
       <div className='space-y-6 space-x-16 flex' >
 <div className=' flex mt-8'>

@@ -16,8 +16,8 @@ import { ToastContainer } from "react-toastify";
 const App = () => {
   return (
     <Router>
-      <div className="w-screen flex justify-center">
-        <div className="max-w-[1440px] h-10 w-full">
+      <div className="  ">
+        <div className="max-w-96 ">
           <Routes>
             <Route index element={<Homepage />} />
             <Route path="about" element={<About />} />
